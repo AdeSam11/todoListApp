@@ -134,3 +134,7 @@ STATICFILES_DIR = [os.path.join(BASE_DIR, 'static')]
 
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOWS_CREDENTIALS = True
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://36436bae-7946-4058-ab47-191f43246315.e1-us-east-azure.choreoapps.dev',
+]
